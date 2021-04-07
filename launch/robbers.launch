@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="exercises" type="robbers.py" name="robber_0" args="--name=robber_0" output="screen"></node>
+  <node pkg="exercises" type="robbers.py" name="robber_1" args="--name=robber_1" output="screen"></node>
+  <node pkg="exercises" type="robbers.py" name="robber_2" args="--name=robber_2" output="screen"></node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="exercises" type="cops_extension.py" name="cop_0" args="--name=cop_0" output="screen"></node>
+  <node pkg="exercises" type="cops_extension.py" name="cop_1" args="--name=cop_1" output="screen"></node>
+  <node pkg="exercises" type="cops_extension.py" name="cop_2" args="--name=cop_2" output="screen"></node>
+</launch>
